@@ -5,11 +5,6 @@ build/
 
 # Gradle files
 .gradle/
-gradle/
-gradlew
-gradlew.bat
-*.lock
-fileHashes.bin
 
 # IDE files
 .idea/
@@ -21,3 +16,8 @@ src/main/resources/application.properties
 
 .DS_Store
 Thumbs.db
+
+# Spring Boot
+/logs/
+*.log
+Help.md
