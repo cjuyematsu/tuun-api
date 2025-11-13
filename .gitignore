@@ -1,0 +1,23 @@
+# Compiled files
+target/
+build/
+*.class
+
+# Gradle files
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+*.lock
+fileHashes.bin
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+
+src/main/resources/application.properties
+!src/main/resources/application.properties.template
+
+.DS_Store
+Thumbs.db
